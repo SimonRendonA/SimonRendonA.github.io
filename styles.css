@@ -1,0 +1,148 @@
+#banner {
+    background-color: #f05454;
+    height: 15%;
+    align-items: center;
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #222831;
+    font-family: 'martel', serif;
+    color: #e8e8e8;
+}
+
+#title {
+    color: #e8e8e8;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#pic {
+
+    margin: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    min-width: none;
+    width: 90%;
+}
+
+#mini-pic {
+
+    margin: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    min-width: none;
+}
+
+#navigation {
+    background-color: #222831;
+    text-align: center;
+    vertical-align: middle;
+    color: #e8e8e8;
+
+}
+
+.mid {
+    vertical-align: middle;
+}
+
+.lightcont {
+    color: #e8e8e8;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hover:hover {
+    background-color: #f05454;
+    border-radius: 20px;
+}
+
+#bigPicture {
+    align-items: center;
+    margin: auto;
+}
+
+.cont-head {
+    background-color: #f05454;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.mar-r {
+    margin-right: 7rem;
+}
+
+.light-bg {
+    background-color: #e8e8e8;
+}
+
+.content-on-light {
+    color: #30475e;
+    font-size: large;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.red {
+    color: #f05454;
+}
+
+#projects {
+    margin-top: 20px;
+
+}
+
+.pad-b {
+    padding-bottom: 20px;
+}
+
+.mar-l {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.bg-red {
+    background-color: #f05454;
+}
+
+.right-align {
+    text-align: end;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.mar-t {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.border-heavy {
+    border-width: 5px;
+    border-color: #30475e;
+
+}
+
+.bot-align {
+    vertical-align: bottom;
+}
+#footer{
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: #e8e8e8;
+}
+#footer-text{
+    padding-top: 25px;
+}
+
+.spacing{
+    padding-top: 180px;
+}
