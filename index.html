@@ -25,6 +25,20 @@
 
     <div class="display-1 " id="title">
 
+      <!--El código html y css es legible
+      Las secciones están definidas pero no claramente ya se podría poner una
+      sección con el tag section para cada parte.
+      El diseño está bie, aunque usar letras blancas sobre fondo negro no es 
+      recomendable. Lo seguro es ir a letras negras y fondo claro
+      La página se dapta bien a los deferentes tamaños de pantalla y hay
+      una navegación consistente.
+      Faltan algunos Alt en ina imágenes
+      Las reglas css están bien nombradas y utilizadas al igual que los tags html.
+      Tal vez sea buena idea usar tags como h1 y h2 para el título y subtítulos.
+
+      
+      -->
+
 
       Simon Rendon's Personal Webpage
     </div>
@@ -83,6 +97,8 @@
         alt="Simon Rendon Arango" class=" d-inline-block align-top" id="pic">
     </div>
   </div>
+  <!--Puedes agragar secciones como estas para dividir cada parte del contenido-->
+  <section>
   <div class="row align-items-center pad-t pad-b" id="projects">
   
     <p class="display-4 spacing">Projects</p>
@@ -113,6 +129,7 @@
           </div>
         </div>
         <div class="carousel-item align-items-center">
+          <!--El width es algo que podrías poner en tu css-->
           <img src="https://www.profesionalreview.com/wp-content/uploads/2018/03/Java-1280x720.jpg"
             class="d-sm-block mx-auto" width="300px" alt="java">
           <div class="d-block bg-light rounded content-on-light pad-b container-fluid mar-l">
@@ -131,6 +148,7 @@
       </button>
     </div>
   </div>
+  </section>
   <div class="row align-items-center pad-t pad-b" id="interests-hobbies">
     <br>
     <br>
@@ -140,6 +158,8 @@
       <p class="display-4 mar-l bg-red rounded spacing">
         My Interests
       </p>
+      <!--Veo que hay lugares donde repites el id de list, tengo entendido
+      que no es buena práctica hacer esto y mejor que los ids sean únicos-->
       <ul class="list-group list-group-flush mar-l  rounded" id="list">
         <li class="list-group-item list-group-item-dark ">Web full-stack development </li>
         <li class="list-group-item list-group-item-dark">Mobile development</li>
